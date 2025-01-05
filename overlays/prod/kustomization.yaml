@@ -3,7 +3,7 @@ resources:
 
 configMapGenerator:
 - name: sample-app-env
-  behavior: replace
+  behavior: create
   literals:
     - ENV=production
     - DB_HOST=prod-db.example.com
